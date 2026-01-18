@@ -37,4 +37,5 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t house-price-app .
+          COMMIT_HASH=$(echo $GITHUB_SHA | cut -c1-7)
+          docker build -t house-price-app:latest -t house-price-app:$COMMIT_HASH .
