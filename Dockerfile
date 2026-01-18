@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # 4. Copy the rest of the project files into container
 COPY . .
-
+# 
 # 5. Expose Streamlit default port
 EXPOSE 8501
 
