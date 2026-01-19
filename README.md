@@ -1,4 +1,6 @@
 # House-Price-Prediction-Model
+[![CI - Docker Build, Dependency & Smoke Test](https://github.com/zeeshanali1009/House-Price-Prediction-Model/actions/workflows/ci.yml/badge.svg)](https://github.com/zeeshanali1009/House-Price-Prediction-Model/actions/workflows/ci.yml)
+This is a Dockerized ML project with CI/CD using GitHub Actions.
 🏠 House Price Prediction System
 (End-to-End Machine Learning Project)
 
