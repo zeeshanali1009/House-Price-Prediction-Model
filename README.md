@@ -104,13 +104,7 @@ Client-oriented problem solving
 It can be directly showcased to freelance clients as proof of:
 “I can build, train, and deploy ML solutions end-to-end.”
 
-📌 Future Improvements
-Feature importance visualization
-API-based deployment (FastAPI)
-Integration with real-time housing data
-Model comparison & optimization
-
 ✅ Project Status
 ✔ Completed
 ✔ Tested
-✔ Deployable
+✔ Deployed
