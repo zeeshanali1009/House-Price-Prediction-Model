@@ -1,34 +1,38 @@
 # House-Price-Prediction-Model
 [![CI - Docker Build, Dependency & Smoke Test](https://github.com/zeeshanali1009/House-Price-Prediction-Model/actions/workflows/ci.yml/badge.svg)](https://github.com/zeeshanali1009/House-Price-Prediction-Model/actions/workflows/ci.yml)
-This is a Dockerized ML project with CI/CD using GitHub Actions.
+
 🏠 House Price Prediction System
 (End-to-End Machine Learning Project)
 
+🔗 Live App: https://house-price-prediction-model-0565656.streamlit.app/
+
+
 📌 Project Overview
-The House Price Prediction System is an end-to-end machine learning solution designed to predict the median value of residential properties based on socio-economic, environmental, and infrastructure-related features.
-This project simulates a real client scenario, where a business or real-estate agency wants accurate price predictions to assist in:
+The House Price Prediction System is an end-to-end machine learning solution that predicts the median value of residential properties using socio-economic, environmental, and infrastructure-related features.
+This project simulates a real-world client scenario where a real-estate business requires reliable and data-driven price predictions to support:
 Property valuation
 Investment decision-making
-Market analysis
-The system covers the entire ML lifecycle from data understanding to deployment using a user-friendly web interface.
+Market trend analysis
+The system covers the complete ML lifecycle, from data preprocessing and model training to deployment via an interactive web application.
 
 🎯 Problem Statement
-Real estate pricing is influenced by multiple factors such as location, crime rate, accessibility, pollution levels, and housing characteristics. Manual estimation is often inaccurate and inconsistent.
-Objective:
+Real estate pricing depends on multiple interacting factors such as location, crime rate, pollution levels, accessibility, and housing characteristics.
+Manual or intuition-based estimation is often inaccurate and inconsistent.
+
+Objective
 Build a regression-based machine learning model that can:
 Learn patterns from historical housing data
-Predict house prices for new unseen inputs
-Provide predictions through a web application
+Predict house prices for unseen inputs
+Serve predictions through a web-based interface
 
 📊 Dataset Description
-The project uses a structured housing dataset containing the following features:
-
+The project uses a structured housing dataset with the following features:
 Feature	Description
 CRIM	Per capita crime rate
 ZN	Proportion of residential land zoned for large lots
 INDUS	Proportion of non-retail business acres
 CHAS	Charles River dummy variable
-NX	Nitric oxide concentration
+NOX	Nitric oxide concentration
 RM	Average number of rooms per dwelling
 AGE	Proportion of old owner-occupied units
 DIS	Distance to employment centers
@@ -36,10 +40,10 @@ RAD	Accessibility to highways
 TAX	Property tax rate
 PTRATIO	Pupil-teacher ratio
 B	Demographic indicator
-LSTAT	Lower status population percentage
+LSTAT	Lower-status population percentage
 MEDV	Median house value (Target)
 
-🧠 Approach & Methodology
+🧠 Methodology & Workflow
 1️⃣ Data Understanding & Exploration
 Analyzed feature distributions
 Identified relationships between predictors and target variable
@@ -48,63 +52,88 @@ Verified data quality and consistency
 2️⃣ Data Preprocessing
 Feature selection
 Feature scaling using StandardScaler
-Ensured consistent feature names for training and inference
+Ensured consistent feature alignment between training and inference
 
 3️⃣ Model Development
-Implemented regression model using Scikit-Learn
-Trained the model on historical data
-Evaluated performance using:
+Implemented a regression model using Scikit-Learn
+Trained on historical housing data
+Evaluated using:
 Mean Squared Error (MSE)
 R² Score
 
 4️⃣ Model Persistence
 Saved trained model and scaler using Joblib
-Enabled reusability without retraining
+Enabled inference without retraining
 
 5️⃣ Deployment
 Built an interactive Streamlit web application
-Allowed users to input property features
-Displayed predicted house price in real-time
+Users can input property features
+Model predicts house price in real time
+
+⚙️ CI/CD & Engineering Practices
+This project follows production-style ML engineering practices:
+✔ Dockerized application
+✔ CI pipeline using GitHub Actions
+✔ Automated:
+Dependency installation
+Docker image build
+Smoke testing
+
+✔ Status badge for pipeline visibility
 
 🛠️ Tech Stack
-Programming Language: Python
-Libraries:
+Programming Language
+Python
+
+Libraries
 NumPy
 Pandas
 Scikit-Learn
 Joblib
-Visualization: Matplotlib / Seaborn (EDA)
-Deployment: Streamlit
-IDE: VS Code / Jupyter Notebook
+
+Visualization
+Matplotlib / Seaborn (EDA)
+
+Deployment
+Streamlit Community Cloud
+
+Dev Tools
+Docker
+GitHub Actions
+VS Code / Jupyter Notebook
 
 🚀 Key Features
-✔ End-to-end ML pipeline
-✔ Client-ready project structure
-✔ Scalable & reusable code
-✔ Web-based prediction interface
-✔ Real-world regression problem
+End-to-end ML pipeline
+Client-ready project structure
+Reusable and scalable codebase
+Web-based prediction interface
+CI-tested & deployment-ready
 
 📈 Output
-Accurate prediction of house prices for unseen data
-Interactive web UI for easy use
+Accurate house price predictions for unseen data
+Interactive and user-friendly web UI
 Production-ready ML artifacts (model & scaler)
 
-💼 Real-World Use Cases
+💼 Real-World Applications
 Real estate agencies
 Property investors
 Housing market analysts
-Pricing decision systems
+Decision-support pricing systems
 
-🌟 Why This Project Matters (Freelance Perspective)
+🌟 Why This Project Matters
 This project demonstrates:
 Practical regression modeling
-Clean project organization
-Deployment capability
-Client-oriented problem solving
-It can be directly showcased to freelance clients as proof of:
-“I can build, train, and deploy ML solutions end-to-end.”
+Clean ML project organization
+Deployment and CI/CD knowledge
+Client-oriented problem-solving approach
+
+Freelance-ready statement:
+“I can design, train, test, and deploy machine learning solutions end-to-end.”
 
 ✅ Project Status
 ✔ Completed
 ✔ Tested
-✔ Deployed (https://house-price-prediction-model-0565656.streamlit.app/)
+✔ CI-enabled
+✔ Deployed & Live
+
+🔗 Live Demo: https://house-price-prediction-model-0565656.streamlit.app/
