@@ -107,4 +107,4 @@ It can be directly showcased to freelance clients as proof of:
 ✅ Project Status
 ✔ Completed
 ✔ Tested
-✔ Deployed
+✔ Deployed (https://house-price-prediction-model-0565656.streamlit.app/)
